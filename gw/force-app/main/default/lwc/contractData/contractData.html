@@ -1,0 +1,12 @@
+<template>
+    <div class="container">
+        <template for:each={cds.data} for:item="cd">
+            <lightning-layout key={cd.Id}>
+                <lightning-formatted-date-time value={cd.Review_Date__c}></lightning-formatted-date-time>
+                <lightning-layout-item>
+                    <p>{cd.Name}</p>
+                </lightning-layout-item>
+            </lightning-layout>
+        </template>
+    </div>  
+</template>

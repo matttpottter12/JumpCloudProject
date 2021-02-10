@@ -33,9 +33,16 @@
         <name>StaticResource</name>
     </types>
      <types>
-        <members>External_Data__c</members>
-        <members>Contract_Data__c</members>
-        <name>objects</name>
+        <members>*</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>PermissionSet</name>
     </types>
     <version>50.0</version>
 </Package>

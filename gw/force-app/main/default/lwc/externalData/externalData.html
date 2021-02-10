@@ -1,0 +1,11 @@
+<template>
+    <div class="container">
+        <template for:each={exDs.data} for:item="exD">
+            <lightning-layout key={exD.Id}>
+                <lightning-layout-item>
+                    <p>{exD.Name}</p>
+                </lightning-layout-item>
+            </lightning-layout>
+        </template>
+    </div>  
+</template>
